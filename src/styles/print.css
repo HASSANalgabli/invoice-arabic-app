@@ -1,0 +1,31 @@
+@media print {
+  body {
+    direction: rtl !important;
+    font-family: 'Cairo', 'Changa', 'Almarai', 'Tajawal', sans-serif;
+    background: white;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .page {
+    page-break-after: always;
+    page-break-inside: avoid;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: white;
+  }
+
+  .invoice-preview {
+    padding: 24px;
+  }
+
+  .cert-page img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
