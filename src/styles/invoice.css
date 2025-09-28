@@ -1,0 +1,90 @@
+body {
+  direction: rtl;
+  font-family: 'Cairo', 'Changa', 'Almarai', 'Tajawal', sans-serif;
+  background: #fafbfc;
+}
+
+.main-app {
+  max-width: 1100px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #0002;
+  padding: 32px;
+}
+
+nav {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+nav button {
+  margin: 0 8px;
+  padding: 8px 22px;
+  border-radius: 6px;
+  border: none;
+  background: #234e85;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background: #26a65b;
+}
+
+.customer-manager, .invoice-form {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.customer-manager table, .invoice-form table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 14px;
+  background: #f7f7fa;
+}
+
+.customer-manager th, .customer-manager td,
+.invoice-form th, .invoice-form td {
+  border: 1px solid #d3d3d3;
+  padding: 8px 4px;
+  text-align: center;
+}
+
+.customer-form input, .invoice-form input, .invoice-form select {
+  margin: 4px 6px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #b5b5b5;
+  font-size: 15px;
+  min-width: 120px;
+}
+
+.customer-form button, .invoice-form button {
+  background: #26a65b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.customer-form button:hover, .invoice-form button:hover {
+  background: #234e85;
+}
+
+.invoice-form .calculations {
+  background: #f0f4f8;
+  padding: 12px 18px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+}
+
+.invoice-form .payment {
+  background: #f7f7fa;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
